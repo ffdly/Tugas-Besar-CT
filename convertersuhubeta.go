@@ -1,5 +1,6 @@
 package main
 
+
 import "fmt"
 
 func main() {
@@ -13,6 +14,11 @@ func main() {
 	fmt.Println("4. Kelvin ke Celcius")
 	fmt.Print("Pilih menu (1-4): ")
 	fmt.Scan(&pilihan)
+
+	if pilihan == 0 {
+		fmt.println("program kalkulasi selesai.")
+		break
+	}
 
 	fmt.Print("Masukkan nilai suhu: ")
 	fmt.Scan(&suhu)
@@ -47,3 +53,4 @@ func fahrenheitToCelcius(f float64) float64 {
 func kelvinToCelcius(k float64) float64 {
 	return k - 273.15
 }
+
