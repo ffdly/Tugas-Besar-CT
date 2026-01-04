@@ -1,0 +1,68 @@
+Mulai program
+Loop selamanya:
+    Tampilkan menu pilihan konversi suhu
+    Input pilihan dari user
+    
+    If pilihan = 0:
+        Tampilkan "Kalkulasi Selesai"
+        Keluar program
+    End if
+    
+    While pilihan tidak valid (bukan antara 0-12):
+        Tampilkan pesan error "Pilihan tidak valid! Masukkan angka 0-12."
+        Input pilihan dari user
+    End while
+    
+    Input nilai suhu dari user
+    
+    If pilihan = 1:
+        Hasil = celcius ke fahrenheit
+        Tampilkan hasil dengan format "Hasil: xx.xx °F"
+    
+    Else if pilihan = 2:
+        Hasil = celcius ke kelvin
+        Tampilkan hasil dengan format "Hasil: xx.xx K"
+    
+    Else if pilihan = 3:
+        Hasil = celcius ke reamur
+        Tampilkan hasil dengan format "Hasil: xx.xx °Ré"
+    
+    Else if pilihan = 4:
+        Hasil = fahrenheit ke celcius
+        Tampilkan hasil dengan format "Hasil: xx.xx °C"
+    
+    Else if pilihan = 5:
+        Hasil = fahrenheit ke kelvin
+        Tampilkan hasil dengan format "Hasil: xx.xx K"
+    
+    Else if pilihan = 6:
+        Hasil = fahrenheit ke reamur
+        Tampilkan hasil dengan format "Hasil: xx.xx °Ré"
+    
+    Else if pilihan = 7:
+        Hasil = kelvin ke celcius
+        Tampilkan hasil dengan format "Hasil: xx.xx °C"
+    
+    Else if pilihan = 8:
+        Hasil = kelvin ke fahrenheit
+        Tampilkan hasil dengan format "Hasil: xx.xx °F"
+    
+    Else if pilihan = 9:
+        Hasil = kelvin ke reamur
+        Tampilkan hasil dengan format "Hasil: xx.xx °Ré"
+    
+    Else if pilihan = 10:
+        Hasil = reamur ke celcius
+        Tampilkan hasil dengan format "Hasil: xx.xx °C"
+    
+    Else if pilihan = 11:
+        Hasil = reamur ke fahrenheit
+        Tampilkan hasil dengan format "Hasil: xx.xx °F"
+    
+    Else if pilihan = 12:
+        Hasil = reamur ke kelvin
+        Tampilkan hasil dengan format "Hasil: xx.xx K"
+    End if
+    
+Kembali ke awal loop
+End program
